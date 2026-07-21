@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <rect width="512" height="512" rx="128" fill="#070A0F"/>
+  <defs>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="50%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#22C55E" />
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#22C55E" stop-opacity="0.2"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer Glow Hexagon/Circle -->
+  <circle cx="256" cy="256" r="210" fill="url(#glow)" />
+  <circle cx="256" cy="256" r="190" fill="#0F172A" stroke="#4F46E5" stroke-width="6" stroke-opacity="0.4"/>
+  <!-- Flight / Pilot Compass Icon -->
+  <path d="M256 100 L340 380 L256 320 L172 380 Z" fill="url(#brandGrad)" />
+  <circle cx="256" cy="256" r="28" fill="#070A0F" />
+  <circle cx="256" cy="256" r="16" fill="#22C55E" />
+</svg>
